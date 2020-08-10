@@ -1,0 +1,315 @@
+/* Contact page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.clr {
+    height: 71px;
+}
+
+.footer {
+    height: 71px;
+    background-color: #000000;
+    margin-top: -71px;
+    clear: both;
+    display: block;
+}
+
+.footer p {
+    margin-left: 808px;
+    padding-top: 28px;
+    /* Style for "© 2017 Ист" */
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+}
+
+.footer a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*first div*/
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.first {
+    padding-top: 13px;
+}
+
+.header {
+    width: 100%;
+    height: 83px;
+    background-color: #000000;
+    opacity: 0.7;
+    margin: 0px;
+}
+
+.logo {
+    margin-left: 475px;
+    margin-top: 22px;
+    float: left;
+}
+
+.header-text1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.77px;
+}
+
+.header-text2 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    margin-top: 5px;
+    clear: both;
+    display: inline-block;
+}
+
+.contact {
+    float: left;
+    margin-left: 115px;
+}
+
+.phone {
+    margin-top: 27px;
+    float: left;
+}
+
+.email {
+    float: left;
+    margin-left: 39px;
+    margin-top: 31px;
+}
+
+.header-phone {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin: 30px 0 0 14px;
+    display: inline-block;
+    float: left;
+}
+
+.header-email {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin: 30px 0 0 14px;
+    display: inline-block;
+    float: left;
+}
+
+.search {
+    width: 208px;
+    height: 38px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    padding: 0 0 0 16px;
+    border-right: none;
+    margin: 22px 0 0 100px;
+    float: left;
+}
+
+.searchbutton {
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    width: 52px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.menustyle {
+    margin-top: 28px;
+}
+
+.menustyle li {
+    list-style-type: none;
+    float: left;
+}
+
+.border {
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+    clear: both;
+}
+
+.padding-site1 {
+    padding: 0 680px;
+}
+
+.menulink {
+    color: #8c8c8c;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.menulink:hover {
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+
+/* Contact Us */
+
+.padding-site2 {
+    padding: 0 476px;
+}
+
+.contact-us {
+    height: 690px;
+    background-color: #e1e1e1;
+    opacity: 0.7;
+}
+
+.contact-header {
+    margin-left: 383px;
+    padding-top: 97px;
+    /* Style for "Contact Us" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.getintouch {
+    width: 386px;
+    float: left;
+    margin-top: 112px;
+}
+
+.git-header {
+    /* Style for "Get in tou" */
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.git-text {
+    margin-top: 18px;
+    /* Style for "Lorem ipsu" */
+    width: 386px;
+    height: 201px;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.git-text span {
+    /* Text style for "mail@examp" */
+    color: #f44336;
+}
+
+.contact-form {
+    margin-top: 89px;
+    width: 500px;
+    float: right;
+}
+
+.text-form {
+    /* Style for "Email" */
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.f1 {
+    /* Style for "Rectangle" */
+    width: 471px;
+    height: 47px;
+    border: 1px solid #000000;
+    margin-bottom: 21px;
+    padding-left: 16px;
+}
+
+.f2 {
+    /* Style for "Rectangle" */
+    width: 471px;
+    height: 138px;
+    border: 1px solid #000000;
+    margin-bottom: 21px;
+    padding-left: 16px;
+    text-align: start;
+}
+
+.button-form {
+    margin-bottom: 96px;
+    /* Style for "Rectangle" */
+    width: 140px;
+    height: 40px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "SUBMIT" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.map {
+    /* Style for "Layer 3 co" */
+    height: 553px;
+}
+
+.map-header {
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 90px;
+    padding-left: 389px;
+}
+
+.address {
+    margin-top: 20px;
+    width: 970px;
+    height: 300px;
+}
