@@ -192,6 +192,195 @@ body {
 }
 
 
+/* Our gallery */
+
+.goods-header {
+    margin-left: 865px;
+    margin-top: 175px;
+    /* Style for "Contact Us" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.items {
+    padding: 104px 374px 0 374px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-top: 13px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.name span {
+    text-transform: none;
+}
+
+.buybutton {
+    /* Style for "Прямоуголь" */
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    margin: 25px 0 0 70px;
+}
+
+.buybutton1 {
+    /* Style for "Прямоуголь" */
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    margin: 5px 0 0 70px;
+}
+
+.show-more {
+    width: 210px;
+    height: 38px;
+    border: 1px solid #000000;
+    margin-top: 104px;
+    margin-left: 856px;
+    position: relative;
+}
+
+.show-more span {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate( -5%, -50%);
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.show-more img {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Discount*/
+
+.discount {
+    margin-top: 174px;
+}
+
+.discount-cod {
+    width: 960px;
+    height: 562px;
+    float: left;
+    background-image: url(../img/gallery/COD-MW.png);
+}
+
+.discount-moh {
+    width: 960px;
+    height: 562px;
+    float: left;
+    background-image: url(../img/gallery/MOH.png);
+}
+
+.dc-text1cod {
+    /* Style for "discount" */
+    color: #010101;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-top: 152px;
+    margin-left: 114px;
+}
+
+.dc-text1 {
+    /* Style for "discount" */
+    color: #010101;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-top: 188px;    
+    margin-left: 115px;
+}
+
+.dc-text2cod {
+    /* Style for "CALL OF DU" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 112px;
+}
+
+.dc-text2 {
+    /* Style for "MEDAL OF H" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-left: 115px;
+}
+
+.dc-price {
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 48px;
+    /* Text style for "$, 14.44" */
+    color: #000000;
+    font-size: 62px;
+    margin-left: 115px;
+}
+
+.dc-price span {
+    text-decoration: line-through;
+    font-size: 36px;
+    color: #8c8c8c;
+}
+
+.dc-buybutton {
+    width: 265px;
+    height: 62px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "B, uy" */
+    letter-spacing: 0.3px;
+    margin-left: 115px;
+}
+
 /* Contact Us */
 
 .padding-site2 {
@@ -199,18 +388,21 @@ body {
 }
 
 .contact-us {
-    height: 690px;
-    background-color: #e1e1e1;
+    clear: both;
+    padding-top: 174px;
 }
 
 .contact-header {
-    margin-left: 383px;
-    padding-top: 97px;
+    margin-left: 861px;
     /* Style for "Contact Us" */
     color: #f44336;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 800;
+}
+.contact-arrow {
+    float: right;
+    margin-right: 52px;
 }
 
 .getintouch {
@@ -295,7 +487,7 @@ body {
 
 .map {
     /* Style for "Layer 3 co" */
-    height: 553px;
+    clear: both;
 }
 
 .map-header {
@@ -308,7 +500,8 @@ body {
 }
 
 .address {
-    margin-top: 20px;
+    margin-top: 104px;
+    margin-bottom: 174px;
     width: 970px;
     height: 300px;
 }

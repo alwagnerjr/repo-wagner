@@ -469,14 +469,19 @@ body {
     width: 130px;
     height: 30px;
     background-color: #f44336;
+    border: 1px solid #f44336;
     /* Style for "Buy" */
     color: #ffffff;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
-    /* Text style for "B, uy" */
     letter-spacing: 0.14px;
     margin: 25px 0 0 70px;
+}
+
+.buybutton a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .buybutton1 {
@@ -484,16 +489,15 @@ body {
     width: 130px;
     height: 30px;
     background-color: #f44336;
+    border: 1px solid #f44336;
     /* Style for "Buy" */
     color: #ffffff;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
-    /* Text style for "B, uy" */
     letter-spacing: 0.14px;
     margin: 5px 0 0 70px;
 }
-
 
 /*slider*/
 

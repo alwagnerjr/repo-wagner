@@ -192,6 +192,165 @@ body {
 }
 
 
+/* Product info */
+
+.product-info {
+    margin-top: 174px;
+    height: 680px;
+}
+
+.info-block1 {
+    width: 470px;
+    height: 257px;
+    float: left;
+}
+
+.info-block2 {
+    width: 470px;
+    height: 257px;
+    float: right;
+}
+
+.pic-bottom {
+    margin: 41px 0 0 15px;
+}
+
+.active {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.passive {
+    padding-left: 20px;
+}
+
+.block-header {
+    /* Style for "Assasin’s" */
+    color: #000000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+
+.block-header span {
+    /* Text style for ", Rogue" */
+    color: #f44336;
+}
+
+.block-price {
+    /* Style for "$29.99" */
+    color: #000000;
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 48.02px;
+    margin-top: 25px;
+    margin-left: 138px;
+}
+
+.block-buybutton {
+    width: 470px;
+    height: 62px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+}
+
+.block-text {
+    margin-top: 32px;
+    /* Style for "The plot i" */
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "The plot i" */
+    letter-spacing: 0.12px;
+}
+
+
+/* Similar games */
+
+.similar-games {
+    height: 684px;
+    background: rgba(0,0,0, 0.08);
+}
+
+.padding-site3 {
+    padding: 0 383px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.games-header {
+    /* Style for "Similar ga" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: 49px;
+    margin-left: 830px;
+}
+
+.name {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-top: 13px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.name span {
+    text-transform: none;
+}
+
+.buybutton {
+    /* Style for "Прямоуголь" */
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    margin: 25px 0 0 70px;
+}
+
+.buybutton1 {
+    /* Style for "Прямоуголь" */
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    margin: 5px 0 0 70px;
+}
+
+
 /* Contact Us */
 
 .padding-site2 {
@@ -199,18 +358,23 @@ body {
 }
 
 .contact-us {
-    height: 690px;
-    background-color: #e1e1e1;
+    clear: both;
+    padding-top: 174px;
 }
 
 .contact-header {
-    margin-left: 383px;
-    padding-top: 97px;
+    margin-left: 861px;
     /* Style for "Contact Us" */
     color: #f44336;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 800;
+}
+
+.contact-arrow {
+    float: right;
+    margin-right: 52px;
+    margin-top: 20px;
 }
 
 .getintouch {
@@ -295,7 +459,7 @@ body {
 
 .map {
     /* Style for "Layer 3 co" */
-    height: 553px;
+    clear: both;
 }
 
 .map-header {
@@ -304,11 +468,12 @@ body {
     font-size: 36px;
     font-weight: 500;
     padding-top: 90px;
-    padding-left: 389px;
+    margin-left: 861px;
 }
 
 .address {
-    margin-top: 20px;
+    margin-top: 104px;
+    margin-bottom: 174px;
     width: 970px;
     height: 300px;
 }
